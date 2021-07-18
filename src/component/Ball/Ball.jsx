@@ -25,7 +25,7 @@ function Ball(props) {
 const mapStateToProps = store => {
     console.log("in map state to prop", store);
     // state variables change  
-    return store;
+    return store.Ball;
 }
 
 // dispatch action provide to reducer
